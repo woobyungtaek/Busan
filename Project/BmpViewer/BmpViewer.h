@@ -1,0 +1,16 @@
+#pragma once
+
+#include "resource.h"
+
+#define IDC_BUTTON_SCALE_X_UP	0
+#define IDC_BUTTON_SCALE_X_DOWN 1
+#define IDC_BUTTON_SCALE_Y_UP	2
+#define IDC_BUTTON_SCALE_Y_DOWN 3
+#define IDC_BUTTON_SCALE_UP		4
+#define IDC_BUTTON_SCALE_DOWN	5
+#define IDC_BUTTON_SCALE_RESET	6
+#define IDC_BUTTON_SCALE_ALPHA	7
+#define IDC_BUTTON_SCALE_TRANS	8
+
+#define IDC_Label	200
+

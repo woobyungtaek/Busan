@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BTEngineDemo", "BTEngineDemo.vcxproj", "{B54E233D-8AF2-44C0-9339-A5C6B8AC859D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0} = {FE2B315C-F235-4846-80C2-BBBA752F3CE0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BTEngine", "..\BTEngine\BTEngine.vcxproj", "{FE2B315C-F235-4846-80C2-BBBA752F3CE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeTool", "..\NodeTool\NodeTool.vcxproj", "{BD727A12-C1C1-42FD-BAD8-6B7A3E62DB03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0} = {FE2B315C-F235-4846-80C2-BBBA752F3CE0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BmpViewer", "..\BmpViewer\BmpViewer.vcxproj", "{E72B48D0-44AA-4E89-977E-952ED4889FB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0} = {FE2B315C-F235-4846-80C2-BBBA752F3CE0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BUSan", "..\BUSan\BUSan.vcxproj", "{71463125-CCEE-46B5-9A81-92766E32B370}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0} = {FE2B315C-F235-4846-80C2-BBBA752F3CE0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B54E233D-8AF2-44C0-9339-A5C6B8AC859D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B54E233D-8AF2-44C0-9339-A5C6B8AC859D}.Debug|x86.Build.0 = Debug|Win32
+		{B54E233D-8AF2-44C0-9339-A5C6B8AC859D}.Release|x86.ActiveCfg = Release|Win32
+		{B54E233D-8AF2-44C0-9339-A5C6B8AC859D}.Release|x86.Build.0 = Release|Win32
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0}.Debug|x86.Build.0 = Debug|Win32
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0}.Release|x86.ActiveCfg = Release|Win32
+		{FE2B315C-F235-4846-80C2-BBBA752F3CE0}.Release|x86.Build.0 = Release|Win32
+		{BD727A12-C1C1-42FD-BAD8-6B7A3E62DB03}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD727A12-C1C1-42FD-BAD8-6B7A3E62DB03}.Debug|x86.Build.0 = Debug|Win32
+		{BD727A12-C1C1-42FD-BAD8-6B7A3E62DB03}.Release|x86.ActiveCfg = Release|Win32
+		{BD727A12-C1C1-42FD-BAD8-6B7A3E62DB03}.Release|x86.Build.0 = Release|Win32
+		{E72B48D0-44AA-4E89-977E-952ED4889FB9}.Debug|x86.ActiveCfg = Debug|Win32
+		{E72B48D0-44AA-4E89-977E-952ED4889FB9}.Debug|x86.Build.0 = Debug|Win32
+		{E72B48D0-44AA-4E89-977E-952ED4889FB9}.Release|x86.ActiveCfg = Release|Win32
+		{E72B48D0-44AA-4E89-977E-952ED4889FB9}.Release|x86.Build.0 = Release|Win32
+		{71463125-CCEE-46B5-9A81-92766E32B370}.Debug|x86.ActiveCfg = Debug|Win32
+		{71463125-CCEE-46B5-9A81-92766E32B370}.Debug|x86.Build.0 = Debug|Win32
+		{71463125-CCEE-46B5-9A81-92766E32B370}.Release|x86.ActiveCfg = Release|Win32
+		{71463125-CCEE-46B5-9A81-92766E32B370}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {105C7826-0274-4AF2-93A7-9F47C9F90CD2}
+	EndGlobalSection
+EndGlobal
